@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/om_addEntry"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/om_addEntry"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/omSettings"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="Item"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/omDeleteAll"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Clear"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/omCreateDummy"
+        android:icon="@android:drawable/ic_menu_more"
+        android:title="Dummies"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/omRefresh"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="Refresh" />
+</menu>
