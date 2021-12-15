@@ -9,7 +9,7 @@
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/omSettings"
-        android:icon="@android:drawable/btn_star_big_on"
+        android:icon="@android:drawable/ic_menu_manage"
         android:title="Item"
         app:showAsAction="ifRoom" />
     <item
